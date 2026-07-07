@@ -1,0 +1,645 @@
+/*Trancisiones*/
+
+body,
+.navbar,
+.hero,
+.card,
+.btn,
+h1,
+h2,
+h3,
+h4,
+p,
+footer,
+.nav-link{
+    transition: all .4s ease;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#FFF8E7;
+    color:#5D4037;
+}
+
+
+.navbar{
+    background:#FFF8E7 !important;
+    border-bottom:3px solid #F8BBD0;
+}
+
+.logo{
+    font-family:'Pacifico', cursive;
+    color:#E75480;
+    font-size:2rem;
+}
+
+.nav-link{
+    color:#5D4037 !important;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#E75480 !important;
+}
+
+
+.hero{
+
+    min-height:85vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    background:
+    linear-gradient(rgba(255,248,231,.75),
+    rgba(255,248,231,.75)),
+    url("img/banner.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.hero h1{
+
+    font-size:4rem;
+
+    font-weight:bold;
+
+    color:#6D4C41;
+
+}
+
+.hero p{
+
+    font-size:1.2rem;
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-top:20px;
+
+    margin-bottom:30px;
+
+}
+
+
+.img-carousel{
+
+    height:550px;
+
+    object-fit:cover;
+
+}
+
+.btn-primary{
+
+    background:#E75480;
+
+    border:none;
+
+    border-radius:30px;
+
+    padding:12px 25px;
+
+}
+
+.btn-primary:hover{
+
+    background:#D81B60;
+
+    transform:scale(1.05);
+
+}
+
+
+h1,h2,h3,h4{
+
+    color:#6D4C41;
+
+}
+
+h2{
+
+    font-weight:bold;
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.20);
+
+}
+
+.card img{
+
+    height:250px;
+
+    object-fit:cover;
+
+}
+
+.card-title{
+
+    color:#E75480;
+
+    font-weight:bold;
+
+}
+
+/*Footer*/
+
+footer{
+
+    background:#F8BBD0;
+
+}
+
+footer a{
+
+    color:#6D4C41;
+
+    font-size:1.8rem;
+
+}
+
+footer a:hover{
+
+    color:#E75480;
+
+}
+
+/*Switch*/
+
+.form-check-input{
+
+    cursor:pointer;
+
+}
+
+/*Modo oscuro*/
+
+.dark-mode{
+
+    background:#3E2723;
+
+    color:#FFF8E7;
+
+}
+
+.dark-mode .navbar{
+
+    background:#4E342E !important;
+
+    border-bottom:3px solid #8D6E63;
+
+}
+
+.dark-mode .logo{
+
+    color:#FFD180;
+
+}
+
+.dark-mode .nav-link{
+
+    color:#FFF8E7 !important;
+
+}
+
+.dark-mode .nav-link:hover{
+
+    color:#FFD180 !important;
+
+}
+
+.dark-mode .hero{
+
+    background:
+    linear-gradient(rgba(62,39,35,.8),
+    rgba(62,39,35,.8)),
+    url("img/banner.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4{
+
+    color:#FFE0B2;
+
+}
+
+.dark-mode p{
+
+    color:#FFF8E7;
+
+}
+
+.dark-mode .card{
+
+    background:#5D4037;
+
+}
+
+.dark-mode .card-title{
+
+    color:#FFD180;
+
+}
+
+.dark-mode .btn-primary{
+
+    background:#8D6E63;
+
+}
+
+.dark-mode .btn-primary:hover{
+
+    background:#6D4C41;
+
+}
+
+.dark-mode footer{
+
+    background:#4E342E;
+
+}
+
+.dark-mode footer a{
+
+    color:#FFD180;
+
+}
+
+/*Responsive*/
+
+@media(max-width:992px){
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+.img-carousel{
+
+    height:400px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+    min-height:70vh;
+
+}
+
+.hero h1{
+
+    font-size:2.3rem;
+
+}
+
+.hero p{
+
+    font-size:1rem;
+
+}
+
+.img-carousel{
+
+    height:300px;
+
+}
+
+.logo{
+
+    font-size:1.6rem;
+
+}
+
+}
+
+/*=========================================
+    HERO DE PÁGINAS INTERNAS
+=========================================*/
+
+.hero{
+
+    min-height:45vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.hero h1{
+
+    font-size:3.5rem;
+
+}
+
+.hero p{
+
+    font-size:1.2rem;
+
+}
+
+/*=========================================
+    TARJETAS DE PASTELES
+=========================================*/
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.12);
+
+}
+
+.card img{
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+
+.card-body{
+
+    padding:25px;
+
+}
+
+.card h5{
+
+    color:#E75480;
+
+    font-weight:bold;
+
+}
+
+.card button{
+
+    width:100%;
+
+}
+
+/*Precios*/
+
+.precio{
+
+    font-size:1rem;
+
+    color:#E75480;
+
+    font-weight:bold;
+
+    margin:15px 0;
+
+}
+
+.promocion{
+
+    background:#F8BBD0;
+
+    border-radius:10px;
+
+    padding: 40px;
+
+}
+
+.promocion h2{
+
+    margin-bottom:10px;
+
+}
+
+.promocion p{
+
+    font-size:1.2rem;
+
+}
+
+.btn-outline-light{
+
+    border:2px solid white;
+
+}
+
+.btn-outline-light:hover{
+
+    background:white;
+
+    color:#E75480;
+
+}
+
+.dark-mode .precio{
+
+    color:#FFD180;
+
+}
+
+.dark-mode .promocion{
+
+    background:#5D4037;
+
+}
+
+
+.noticia{
+
+    height:100%;
+
+}
+
+.fecha{
+
+    color:#999;
+
+    font-size:.9rem;
+
+    margin-bottom:10px;
+
+}
+
+/*Noticias*/
+
+.noticia img{
+
+    height:250px;
+
+    object-fit:cover;
+
+}
+
+.fecha{
+
+    color:#888;
+
+    font-size:.9rem;
+
+}
+
+.noticia .btn{
+
+    width:100%;
+
+}
+
+/*Enlaces*/
+
+.ratio{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+iframe{
+
+    border-radius:20px;
+
+}
+
+.card i{
+
+    transition:.4s;
+
+}
+
+.card:hover i{
+
+    transform:rotate(10deg) scale(1.2);
+
+}
+
+/*Contacto*/
+
+.form-control{
+
+    border-radius:12px;
+
+}
+
+.form-control:focus{
+
+    border-color:#E75480;
+
+    box-shadow:0 0 10px rgba(231,84,128,.3);
+
+}
+
+.redes a{
+
+    font-size:2rem;
+
+    margin-right:15px;
+
+    color:#E75480;
+
+    transition:.3s;
+
+}
+
+.redes a:hover{
+
+    color:#D81B60;
+
+    transform:scale(1.2);
+
+}
+
+.dark-mode .redes a{
+
+    color:#FFD180;
+
+}
+
+.dark-mode .redes a:hover{
+
+    color:#FFFFFF;
+
+}
+
+/*Modal*/
+
+.modal-content{
+
+    border-radius:20px;
+
+}
+
+.modal-header{
+
+    background:#F8BBD0;
+
+}
+
+.modal-title{
+
+    color:#6D4C41;
+
+}
+
+.dark-mode .modal-content{
+
+    background:#4E342E;
+
+    color:#FFF8E7;
+
+}
+
+.dark-mode .modal-header{
+
+    background:#6D4C41;
+
+}
+
+.dark-mode .modal-title{
+
+    color:#FFD180;
+
+}
